@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #26021d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px 5px 10px;
+}
+
+.navbar__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: cadetblue;
+  font-size: large;
+}
+
+.navbar__right {
+  display: flex;
+  align-items: center;
+  color: cadetblue;
+  font-size: large;
+}
+
+.navbar__right > .MuiSvgIcon-root {
+  font-size: xx-large;
+}
